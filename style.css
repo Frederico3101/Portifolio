@@ -120,7 +120,7 @@ body {
 }
 
 .section {
-  padding: calc(5rem + var(--header-height)); /*Cima e baixo; lados*/
+  padding: calc(5rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -167,7 +167,7 @@ body {
 }
 
 .logo-alt span {
-  color: var(--body-color);
+  color: var(--body-color); 
 }
 
 /* ========================= Navigation ==================================== */
